@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Agora",
+    "logo": "https://placekitten.com/300/300",
+    "services": [
+      "Payroll", "Treasury", "Implementation", "Bank Payments"
+    ],
+    "country": "Poland"
+  },
+  {
+    "name": "Bełchatów Coal Mine",
+    "logo": "https://placekitten.com/300/300",
+    "services": [
+      "Payroll", "Treasury", "Implementation", "Bank Payments"
+    ],
+    "country": "Poland"
+  },
+  {
+    "name": "CI Games",
+    "logo": "https://placekitten.com/300/300",
+    "services": [
+      "Payroll", "Treasury", "Implementation", "Bank Payments"
+    ],
+    "country": "Poland"
+  },
+  {
+    "name": "Inglot",
+    "logo": "https://placekitten.com/300/300",
+    "services": [
+      "Payroll", "Treasury", "Implementation", "Bank Payments"
+    ],
+    "country": "Poland"
+  }
+]
