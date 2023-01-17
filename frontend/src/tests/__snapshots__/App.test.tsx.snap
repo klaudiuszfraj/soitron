@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`dropdown: [<button class="optionBadge">Bank Payments<span class="removeBtn">×</span></button>, <li class="option selected highlighted">Bank Payments</li>] 1`] = `
+Array [
+  <button
+    class="optionBadge"
+  >
+    Bank Payments
+    <span
+      class="removeBtn"
+    >
+      ×
+    </span>
+  </button>,
+  <li
+    class="option selected highlighted"
+  >
+    Bank Payments
+  </li>,
+]
+`;
+
+exports[`dropdown: [<ul class="options "><li class="option  ">Payroll</li><li class="option  ">Treasury</li><li class="option  ">Implementation</li><li class="option  ">Bank Payments</li></ul>] 1`] = `
+Array [
+  <ul
+    class="options "
+  >
+    <li
+      class="option  "
+    >
+      Payroll
+    </li>
+    <li
+      class="option  "
+    >
+      Treasury
+    </li>
+    <li
+      class="option  "
+    >
+      Implementation
+    </li>
+    <li
+      class="option  "
+    >
+      Bank Payments
+    </li>
+  </ul>,
+]
+`;

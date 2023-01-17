@@ -1,0 +1,109 @@
+$gray: #777;
+$white: #fff;
+$blue: hsl(200, 100%, 50%);
+$light-blue: hsl(200, 100%, 70%);
+$red: red;
+$light-red: hsl(0, 77%, 79%);
+
+.dropdown {
+  position: relative;
+  width: 20em;
+  min-height: 1.5em;
+  border: .05em solid $gray;
+  display: flex;
+  align-items: center;
+  gap: .5em;
+  padding: .5em;
+  border-radius: .25em;
+  outline: none;
+  margin-bottom: 3rem;
+
+  &:focus {
+    border-color: $blue;
+  }
+
+  .value {
+    flex-grow: 1;
+    display: flex;
+    gap: .5em;
+    flex-wrap: wrap;
+  }
+
+  .clearBtn {
+    background: none;
+    color: $gray;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 0;
+    font-size: 1.25em;
+    &:focus,
+    &:hover {
+      color: #333;
+    }
+  }
+  .divider {
+    background-color: $gray;
+    align-self: stretch;
+    width: .05em;
+  }
+  .caret {
+    translate: 0 25%;
+    border: .25em solid transparent;
+    border-top-color: $gray;
+  }
+  .options {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: none;
+    max-height: 15em;
+    overflow-y: auto;
+    border: .05em solid $gray;
+    border-radius: .25em;
+    width: 100%;
+    left: 0;
+    top: calc(100% + .25em);
+    background-color: $white;
+    z-index: 1;
+    &.show {
+      display: block;
+    }
+  }
+  .option {
+    padding: .25em .5em;
+    cursor: pointer;
+    &.selected {
+      background-color: $light-blue;
+    }
+    &.highlighted {
+      background-color: $blue;
+      color: $white;
+    }
+  }
+
+  .optionBadge {
+    display: flex;
+    align-items: center;
+    border: .5em $gray;
+    border-radius: .25em;
+    padding: .15em .25em;
+    gap: .25em;
+    cursor: pointer;
+    background: none;
+    outline: none;
+    .removeBtn{
+      font-size: 1.25em;
+      color: $gray;
+    }
+    &:hover,
+    &:focus {
+      background-color: $light-red;
+      border-color: $red;
+      & > .removeBtn {
+        color: $red;
+      }
+    }
+  }
+}

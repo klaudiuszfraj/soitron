@@ -1,0 +1,8 @@
+{
+  "name": "soitron",
+  "version": "1.0.0",
+  "scripts": {
+    "install-all": "npm --prefix backend install && npm --prefix frontend install",
+    "start-back": "npm --prefix backend start",
+    "start-front": "npm --prefix frontend start"  }
+}

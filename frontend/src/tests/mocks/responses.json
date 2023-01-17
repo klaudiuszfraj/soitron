@@ -1,0 +1,94 @@
+{
+  "companies": [
+    {
+      "id": 1,
+      "name": "Agora",
+      "logo": "https://placekitten.com/300/300",
+      "services": [
+        "Treasury", "Implementation", "Bank Payments"
+      ],
+      "country": "Poland"
+    },
+    {
+      "id": 2,
+      "name": "Bełchatów Coal Mine",
+      "logo": "https://placekitten.com/300/300",
+      "services": [
+        "Payroll", "Treasury", "Implementation"
+      ],
+      "country": "Poland"
+    },
+    {
+      "id": 3,
+      "name": "CI Games",
+      "logo": "https://placekitten.com/300/300",
+      "services": [
+        "Payroll", "Treasury", "Implementation"
+      ],
+      "country": "Poland"
+    },
+    {
+      "id": 4,
+      "name": "Inglot",
+      "logo": "https://placekitten.com/300/300",
+      "services": [
+        "Implementation", "Bank Payments"
+      ],
+      "country": "Poland"
+    },
+    {
+      "id": 5,
+      "name": "Walmart",
+      "logo": "https://placekitten.com/300/300",
+      "services": [
+        "Payroll", "Treasury"
+      ],
+      "country": "Poland"
+    },
+    {
+      "id": 6,
+      "name": "Amazon",
+      "logo": "https://placekitten.com/300/300",
+      "services": [
+        "Payroll", "Treasury", "Implementation", "Bank Payments"
+      ],
+      "country": "Poland"
+    },
+    {
+      "id": 7,
+      "name": "Costco",
+      "logo": "https://placekitten.com/300/300",
+      "services": [
+        "Payroll", "Treasury"
+      ],
+      "country": "Poland"
+    },
+    {
+      "id": 8,
+      "name": "Chevron Corporation",
+      "logo": "https://placekitten.com/300/300",
+      "services": [
+        "Payroll", "Treasury", "Bank Payments"
+      ],
+      "country": "Poland"
+    },
+    {
+      "id": 9,
+      "name": "Prudential Financial",
+      "logo": "https://placekitten.com/300/300",
+      "services": [
+        "Implementation", "Bank Payments"
+      ],
+      "country": "Poland"
+    },
+    {
+      "id": 10,
+      "name": "GSK plc",
+      "logo": "https://placekitten.com/300/300",
+      "services": [
+        "Payroll", "Implementation", "Bank Payments"
+      ],
+      "country": "Poland"
+    }
+  ]
+}
